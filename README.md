@@ -24,14 +24,14 @@ traffic-sign-recognition/
 ├── notebooks/
 │   └── traffic-sign-recognition.ipynb  # Jupyter notebook with project code
 ├── plots/
-│   ├── custom_cnn_accuracy_loss.png   # Accuracy and loss plots for Custom CNN
-│   ├── augmented_cnn_accuracy_loss.png # Accuracy and loss plots for Augmented CNN
-│   ├── mobilenet_accuracy_loss.png    # Accuracy and loss plots for MobileNet
-│   ├── finetuned_mobilenet_accuracy_loss.png # Accuracy and loss plots for Fine-tuned MobileNet
-│   ├── custom_cnn_confusion_matrix.png # Confusion matrix for Custom CNN
-│   ├── augmented_cnn_confusion_matrix.png # Confusion matrix for Augmented CNN
-│   ├── mobilenet_confusion_matrix.png  # Confusion matrix for MobileNet
-│   └── sample_traffic_signs.png        # Sample visualizations of traffic signs
+│   ├── Custom_CNN_training.png   # Accuracy and loss plots for Custom CNN
+│   ├── Augmented_Custom_CNN_training.png # Accuracy and loss plots for Augmented CNN
+│   ├── MobileNet_training.png    # Accuracy and loss plots for MobileNet
+│   ├── Fine-Tuned_MobileNet_training.png # Accuracy and loss plots for Fine-tuned MobileNet
+│   ├── custom_cnn_cm.png # Confusion matrix for Custom CNN
+│   ├── augmented_cnn_cm.png # Confusion matrix for Augmented CNN
+│   └── mobilenet_cm.png  # Confusion matrix for MobileNet
+│   
 ├── requirements.txt                    # Project dependencies
 └── README.md                          # Project overview and setup instructions
 ```
@@ -93,21 +93,21 @@ traffic-sign-recognition/
 
 ### Training and Validation Plots
 - **Custom CNN**:
-  ![Custom CNN Accuracy and Loss](plots/custom_cnn_accuracy_loss.png)
+  ![Custom CNN Accuracy and Loss](plots/Custom_CNN_training.png)
 - **Augmented Custom CNN**:
-  ![Augmented CNN Accuracy and Loss](plots/augmented_cnn_accuracy_loss.png)
+  ![Augmented CNN Accuracy and Loss](plots/Augmented_Custom_CNN_training.png)
 - **MobileNet**:
-  ![MobileNet Accuracy and Loss](plots/mobilenet_accuracy_loss.png)
+  ![MobileNet Accuracy and Loss](plots/MobileNet_training.png )
 - **Fine-tuned MobileNet**:
-  ![Fine-tuned MobileNet Accuracy and Loss](plots/finetuned_mobilenet_accuracy_loss.png)
+  ![Fine-tuned MobileNet Accuracy and Loss](plots/Fine-Tuned_MobileNet_training.png)
 
 ### Confusion Matrices
 - **Custom CNN**:
-  ![Custom CNN Confusion Matrix](plots/custom_cnn_confusion_matrix.png)
+  ![Custom CNN Confusion Matrix](plots/custom_cnn_cm.png)
 - **Augmented Custom CNN**:
-  ![Augmented CNN Confusion Matrix](plots/augmented_cnn_confusion_matrix.png)
+  ![Augmented CNN Confusion Matrix](plots/augmented_cnn_cm.png)
 - **MobileNet**:
-  ![MobileNet Confusion Matrix](plots/mobilenet_confusion_matrix.png)
+  ![MobileNet Confusion Matrix](plots/mobilenet_cm.png)
 
 These plots and matrices demonstrate model performance, with the Custom CNN achieving the highest test accuracy (95.72%) and the Augmented CNN showing improved generalization.
 
