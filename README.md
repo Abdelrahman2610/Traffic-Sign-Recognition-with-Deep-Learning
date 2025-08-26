@@ -20,7 +20,7 @@ This project develops and evaluates deep learning models for traffic sign classi
 ## Repository Structure
 
 ```
-traffic-sign-recognition/
+Traffic-Sign-Recognition-with-Deep-Learning/
 ├── notebooks/
 │   └── traffic-sign-recognition.ipynb  # Jupyter notebook with project code
 ├── plots/
@@ -46,8 +46,8 @@ traffic-sign-recognition/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Abdelrahman2610/traffic-sign-recognition.git
-   cd traffic-sign-recognition
+   git clone https://github.com/Abdelrahman2610/Traffic-Sign-Recognition-with-Deep-Learning.git
+   cd Traffic-Sign-Recognition-with-Deep-Learning
    ```
 
 2. **Set Up a Virtual Environment**:
@@ -86,8 +86,8 @@ traffic-sign-recognition/
    - **Model Comparison**: Compares results across models.
 
 4. **Visualizations**:
-   - Training and validation plots are saved in `plots/` (e.g., `custom_cnn_accuracy_loss.png`).
-   - Confusion matrices are saved as `custom_cnn_confusion_matrix.png`, etc.
+   - Training and validation plots are saved in `plots/` (e.g., `Custom_CNN_training.png`).
+   - Confusion matrices are saved as `custom_cnn_cm.png`, etc.
 
 ## Results
 
